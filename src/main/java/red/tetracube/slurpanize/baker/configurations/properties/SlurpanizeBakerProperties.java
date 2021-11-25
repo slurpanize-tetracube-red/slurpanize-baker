@@ -6,5 +6,6 @@ import io.smallrye.config.ConfigMapping;
 public interface SlurpanizeBakerProperties {
 
     SecurityProperties security();
+    BrokerProperties broker();
 
 }
